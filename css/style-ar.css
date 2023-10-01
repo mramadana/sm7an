@@ -1,0 +1,154 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+.head .inner .right .btn-nav-lang {
+    margin-right: 0;
+    margin-left: 20px;
+    padding-right: 0;
+    padding-left: 20px;
+}
+.btn-nav-lang::after {
+    right: auto;
+    left: 0;
+}
+.btn-nav-lang:not(:first-child)::before {
+    left: auto;
+    right: 0;
+}
+.logo-img {
+    margin-right: 0;
+    margin-left: 25px;
+}
+.header-nav .inner .right .call-center i {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.header-nav .inner .right .cart {
+    margin-left:0;
+}
+.header-nav .inner .right .user {
+    margin-right: 24px;
+}
+.header-nav .inner .left .dark-mode {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.header-nav .inner .left .input .custom-select {
+    border-left: 0;
+    border-right: 1px solid #E6E6E6;
+    padding-left: 0;
+    padding-right: 25px;
+}
+.head-link .inner .dropdown {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.head-link .dropdown i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.header-nav .inner .left .dark-mode.active::before {
+    left: auto;
+    right: 57px;
+}
+
+.head-link .dropdown-toggle::before {
+    right: auto;
+    left: -14px;
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.head-link .inner .right .whatts i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.btn-nav-lang .drop-lang {
+    left: auto;
+    right: 15px;
+}
+.modal-login .label {
+    margin-left: 0;
+    margin-right: 35px;
+}
+.modal-login .f-p-word {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.payment-box {
+    padding: 0px 15px 0px 5px;
+}
+.btn-det {
+    left: auto;
+    right: 0;
+}
+.header-nav .inner .left .dark-mode::before {
+    left: auto;
+    right: 4px;
+}
+.ads-section .info-ads .btn-det {
+    left: auto;
+    right: 50%;
+    transform: translateX(50%);
+}
+.item-products {
+    padding: 35px 10px 20px;
+}
+
+.item-products .ad-cart {
+    padding: 5px 19px 6px 6px;
+}
+.item-products .add-cart .search-ic {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/*============= media ===================*/
+.item-products .add-cart .search-ic {
+    margin-left: 5px;
+}
+
+.side-bar-content {
+    transform: translateX(100%);
+}
+.side-bar-content .mobil-nav li .sub-menu,
+.side-bar-content .mobil-nav li .user-sub-menu,
+.side-bar-content .mobil-nav li .currency-Menu {
+    transform: translateX(100%);
+}
+
+.side-bar-content .mobil-nav .left {
+    float: left
+}
+
+
+.side-bar-content .mobil-nav li .back::before {
+    content: "\f104";
+}
+.imgs-box .img .info {
+    position: absolute;
+    direction: ltr;
+    text-align: left;
+    left: 25px;
+}
+
+@media (max-width: 1024px) {
+    .header-nav .inner .left .dark-mode.active::before {
+        left: auto;
+        right: 45px;
+    }
+}
+.bottom-footer .icon a:not(:last-child) {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
